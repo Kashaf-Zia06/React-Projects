@@ -1,0 +1,37 @@
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#shop {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+#shopbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 { color: blueviolet; margin: 0; }
+
+#shopbar button {
+  padding: 8px 14px;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
