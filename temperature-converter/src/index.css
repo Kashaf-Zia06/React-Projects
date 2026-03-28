@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background: #db79aa;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #8b6889;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, select {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+}
