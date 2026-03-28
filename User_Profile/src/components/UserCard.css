@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px;
+  width: 160px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-weight: bold;
+  color: #111;
+  margin: 0;
+  font-size: 15px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.role {
+  font-size: 12px;
+  background: #f3eeff;
+  color: blueviolet;
+  padding: 2px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
